@@ -1,0 +1,181 @@
+/*Задаем стиль гипперссылок*/
+
+a{
+   text-decoration: none; 
+}
+
+/*Стилизация меню*/
+
+.content{
+   color: cornflowerblue; 
+   font-size: 16px; 
+   line-height: 20px;   
+}
+
+/*Стилизация загловка h1*/
+
+.main_headline{
+   color: #222222; 
+   font-size: 28px; 
+   line-height: 36px; 
+   font-weight: bold;
+   text-align: center;
+}
+
+/*Стидизация параграфов*/
+
+.paragraph{
+   font-style: normal; 
+   font-weight: 300; 
+   font-size: 18px; 
+   line-height: 30px; 
+   color: #7D7987 
+}
+
+/*Стилизация заголовка h2*/
+
+.secondery_headline{
+   color: coral; 
+   font-style: normal; 
+   font-weight: 700; 
+   font-size: 36px; 
+   line-height: 80px; 
+   text-align: center;
+}
+
+/*Стилизация footer*/
+
+footer{
+   background-color: lightgray;
+}
+
+/*Стилизация header*/
+
+header{
+   background-color: lightcyan;
+   margin: 10px 30px 10px 0px;
+   padding: 80px; 
+}
+
+/*Cтилизация main*/
+
+main{
+   text-align: justify;
+}
+
+/* Стиль для панели навигации */
+
+nav{
+   float: left;
+   width: 150px;
+   margin: 10px 30px 10px 0px;
+   padding: 20px;   
+}
+
+/* Стиль для блоков панели навигации */
+
+div{
+   font-size: 20pt;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/*Стилизация form*/
+.registration_form{
+   margin: 10px 30px 10px 0px;
+   padding: 20px;    
+   outline: none; 
+   border: 1px solid #ccc; 
+   border-radius: 15px; 
+   font-size: 14px; 
+   line-height: 30px;
+   font-family: Helvetica;  
+}
+
+/*стилизация картинок*/
+
+.img_border{
+   border-radius: 20px;
+   width: 200px;
+   height: 300px;
+}
+
+/*Стилизация поля ввода в form*/
+
+input, select{
+   outline: none; 
+   border: 1px solid #ccc; 
+   border-radius: 15px; 
+   font-size: 14px; 
+   line-height: 30px;
+   font-family: Helvetica; 
+}
+
+
+/*Стилизация footer*/
+
+footer{
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 30px;
+}
+
+.mobile_logo{
+   padding-left: 15px;
+}
+
+/*Cтилизация логотипов в footer*/
+
+.logo{
+   text-align: center;   
+}
+
+/*Стилизация права на использование в footer*/
+
+.rights{
+   text-align: right;
+   padding-right: 50px;
+}
+
+/*Стилизация таблицы*/
+
+table.catalog{
+   border-collapse: collapse;
+}
+
+table.catalog td{
+   border-top: black thin dotted;
+   border-bottom: black thin dotted;
+   padding: 10px;
+}
+
+table.catalog img{
+   width: 200px;
+}
+
+/*Стилизация form*/
+
+form{
+   padding: 5px;
+}
+
+input{
+   padding: 2px;
+   margin: 10px;
+}
+
+/*Стилизация кнопок button*/
+
+.button_style{    
+   width: 100px; 
+   height: 30px;
+   background-size: 100% 100%;   
+}
+
+button{  
+   margin: 5px; 
+   width: 100px; 
+   height: 30px;    
+   border-radius: 30px;  
+}
+
