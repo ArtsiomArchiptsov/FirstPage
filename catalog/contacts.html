@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="../index.html" class="content">Главная страница</a></div>
+            <div><a href="../catalog/catalog.html" class="content">Каталог товаров</a></div>
+            <div><a href="../catalog/contacts.html" class="content">Регистрация</a></div>
+        </nav>                  
+        <h1 class="main_headline">Регистрация</h1> 
+    </header>
+    <main>
+        <form action="#" class="registration_form">
+            Фамилия: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Введите Вашу фамилию"><br>
+            Имя: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Введите Ваше имя"><br>            
+            Отчество: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Введите Ваше отчество"><br>
+            Год рождения: &nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="Введите Ваше отчество"><br>
+            Адрес: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+                <option value="1">ул.</option>
+                <option value="2">пр.-т</option>
+                <option value="3">пер.</option>
+                <option value="4">б.-р</option>
+            </select><input type="text" placeholder="Введите Ваш адрес">&nbsp;д.<input type="text" placeholder="Номер дома"><br>
+            <label for="phone">Номер телефона:&nbsp;&nbsp;&nbsp;</label>
+            <select>
+                <option value="1">+375(29)</option>
+                <option value="2">+375(44)</option>            
+                <option value="3">+375(25)</option>                
+            </select>
+            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required><br>
+            E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Введите Вашу почту"><br>
+            <button type="submit">Отправить</button>
+            <button type="reset">Стереть</button>
+        </form>
+    </main>
+    <footer>
+        <address>
+            ул.Лесная, 8.<br>
+            Контактный номер:
+            <ul>
+                <li>+375(44)3451785<img src="../image/logo_A1.jpg" alt="A1" width="25" height="25" title="A1" class="mobile_logo"></li>
+                <li>+375(29)2345967<img src="../image/logo_MTS.jpg" alt="MTS" width="25" height="25" title="MTS" class="mobile_logo"></li>
+            </ul>
+        </address>
+        <p class="logo">
+            <a href="https://www.instagram.com/"><img src="../image/logo_instagram.svg" alt="Инстаграмм" width="30" title="Instagram"></a>
+            <a href="https://vk.com/im"><img src="../image/logo_vk.svg" alt="В контакте" width="30" title="Vkontakte"></a>
+            <a href="https://www.tiktok.com/explore"><img src="../image/logo_tiktok.svg" alt="Тикток" width="30" title="Tik-tok"></a>
+        </p>      
+        <p class="rights">&copy;курс&nbsp;&laquo;Веб-вёрстка HTML/CSS&raquo;. <br>Все права защищены</p>
+    </footer>
+</body>
+</html>
